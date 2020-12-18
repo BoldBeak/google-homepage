@@ -3,24 +3,44 @@ body {
 }
 
 main {
+    outline: 1px dashed green;
+    min-height: 500px;
+    min-width: 300px;
     display: flex;
-    position: relative;
-    width: 75%;
-    height: 100%;
     align-items: center;
     justify-content: center;
-    margin: auto;
 }
 
-.main-container, .form-container, .button-container {
-    position: relative;
+img {
+    min-width: 10rem;
+}
+
+.main-container {
+    min-height: 20rem;
+    min-width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin:auto;
+   // outline: 1px solid red;
 }
 
+form {
+ //   outline: 1px dashed blue;
+    width: 100%;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5ch
+    
+}
 
 header {
     width: 100%;
