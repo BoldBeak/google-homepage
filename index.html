@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Homepage (Simple)</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a12bd0efb0.js" crossorigin="anonymous"></script>
 </head>
 <body>
    <!-- <header class="header" id="page-header">
@@ -58,9 +59,13 @@
     <main class="main-content">
         <div class="main-container">
             <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
-                <form id="search-form">
-                    <input type="text" id="search-input" placeholder="SEARCH ICON" >
+                <form
+                id="search-form">
+                <div class="input-container">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="search-input" >
                     <div class="button-container">
+                    </div>
                     <button type="submit" id="search-all">Google Search</button>
                     <button type="submit" id="search-single-result">I'm Feeling Lucky</button>
                 </form>

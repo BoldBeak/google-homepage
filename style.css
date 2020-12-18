@@ -35,10 +35,25 @@ form {
     justify-content: space-around;
 }
 
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.fa-search {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    font-size: 16pt;
+    opacity: 30%;
+}
+
 input {
     width: 100%;
-    padding: 10px;
-    border-radius: 5ch
+    padding: 7px;
+    border-radius: 5ch;
+    text-indent: 40px;
+    border: 1px solid grey;
     
 }
 
