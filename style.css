@@ -41,13 +41,15 @@ form {
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    outline: 1px dashed orange
     
 }
 
 .fa-search {  /*search icon in input box */
     position: absolute;
-    left: 2.5rem;
-    top: 2.5rem;
+    left: .5rem;
+    top: 2.6rem;
     font-size: 16pt;
     opacity: 30%;
 }
@@ -58,15 +60,20 @@ input {
     border-radius: 5ch;
     text-indent: 40px;
     margin: 2rem;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
 
 }
 
-button-container {
-    justify-content: space-around;
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    outline: 1px dashed red;
 }
 
-
+button {
+    font-size: medium;
+}
 header {
     width: 100%;
     height: 30px;
