@@ -13,6 +13,7 @@ main {
 
 img {
     min-width: 10rem;
+    margin-bottom: 2rem;
 }
 
 .main-container {
@@ -38,12 +39,15 @@ form {
 .input-container {
     position: relative;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    
 }
 
-.fa-search {
+.fa-search {  /*search icon in input box */
     position: absolute;
-    left: 15px;
-    top: 10px;
+    left: 2.5rem;
+    top: 2.5rem;
     font-size: 16pt;
     opacity: 30%;
 }
@@ -53,9 +57,15 @@ input {
     padding: 7px;
     border-radius: 5ch;
     text-indent: 40px;
+    margin: 2rem;
     border: 1px solid grey;
-    
+
 }
+
+button-container {
+    justify-content: space-around;
+}
+
 
 header {
     width: 100%;
