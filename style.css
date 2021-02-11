@@ -42,7 +42,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    outline: 1px dashed orange
+ //   outline: 1px dashed orange
     
 }
 
@@ -68,12 +68,21 @@ input {
     width: 100%;
     display: flex;
     justify-content: center;
-    outline: 1px dashed red;
+// outline: 1px dashed red;
 }
 
 button {
     font-size: medium;
+    background-color: #EEEEEE;
+    border: 0px;
+    height: 2rem;
+    margin-right: .25rem;
+    margin-left: .25rem;
 }
+button:hover {
+    border: 1px solid grey;
+}
+
 header {
     width: 100%;
     height: 30px;
