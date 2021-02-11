@@ -78,10 +78,11 @@ button {
     height: 2rem;
     margin-right: .25rem;
     margin-left: .25rem;
+    border-radius: 3px;
 }
 button:hover {
-    border: 1px solid grey;
-}
+    border: 1px solid #BDBDBD;
+}#BDBDBD
 
 header {
     width: 100%;
