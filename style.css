@@ -115,6 +115,13 @@ ul {
 li {
     margin: 10px;
 }
+
+.nav-button {
+    background-color: #4285f4;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
 a {
     color: #000000;
     opacity: 75%;
