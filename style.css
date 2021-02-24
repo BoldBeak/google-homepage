@@ -1,9 +1,10 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family:Lucida Grande, Helvetica, Arial, sans-serif;
+  font-size:12px;
+  line-height:1.2;
 }
 
 main {
-    outline: 1px dashed green;
     min-height: 500px;
     min-width: 300px;
     display: flex;
@@ -121,6 +122,7 @@ li {
     color: #ffffff;
     text-align: center;
     vertical-align: middle;
+    font-weight: bold;
 }
 a {
     color: #000000;
@@ -134,6 +136,8 @@ footer {
     width: 100%;
     bottom: 0;
     left: 0;
+    display: flex;
+    justify-content: space-between;
 
 }
 
