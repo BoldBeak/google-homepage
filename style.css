@@ -82,13 +82,13 @@ button {
 }
 button:hover {
     border: 1px solid #BDBDBD;
-}#BDBDBD
+}
 
 header {
-    width: 100%;
-    height: 30px;
-    
+    display: flex;
+    justify-content: space-between;
 }
+
 
 a {
     color: #000000;
