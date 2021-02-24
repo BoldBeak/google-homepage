@@ -87,9 +87,34 @@ button:hover {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center; 
+}
+
+#gen-nav-list {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#gen-nav-user {
+    display: flex;
+    justify-content: end;
+}
+
+li {
+    margin: 10px;
+}
 a {
     color: #000000;
     opacity: 75%;
